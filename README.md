@@ -58,11 +58,12 @@ GTM Brain is a **memory architecture + behavioral rules framework** for Claude C
 
 ```
 your-project/
+├── roadmap.md                        # your 90-day goals, objectives, targets
 ├── .claude/
 │   ├── rules/
 │   │   ├── learning-loop.md          # (auto-loaded) enforces before/after workflow
 │   │   ├── brand-voice.md            # (auto-loaded) your tone, patterns, forbidden terms
-│   │   └── strategy-guard.md         # (auto-loaded) prevents off-strategy work
+│   │   └── strategy-guard.md         # (auto-loaded) prevents off-strategy work + roadmap alignment
 │   └── commands/
 │       └── setup-memory-system.md    # skill that scaffolds everything
 ├── memory/
@@ -73,6 +74,22 @@ your-project/
 │   └── reference_*.md                # pointers to external systems (Linear, Slack, etc.)
 └── ...rest of your project
 ```
+
+## Your Roadmap
+
+GTM Brain includes a `roadmap.md` file that anchors all strategic decisions. Fill it in once with:
+
+- **90-day goals** - What you want to achieve in the next quarter
+- **Three main objectives** - Your north stars (the 3 things that matter most)
+- **What you want to improve** - Areas that are weak and need fixing
+- **Two or three main targets** - Measurable outcomes that prove progress
+
+Whenever you're brainstorming or making strategic decisions, Claude automatically checks:
+- "Does this serve one of your three objectives?"
+- "Does this move the needle on one of your targets?"
+- "Or is this a distraction?"
+
+This is your decision filter. It prevents off-strategy work before it starts.
 
 ## Memory Types
 

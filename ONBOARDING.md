@@ -51,7 +51,31 @@ Open `.claude/rules/brand-voice.md` and fill in these sections:
 
 ---
 
-## Step 3: Customize Strategy Guard (5-7 min)
+## Step 3: Fill in Your Roadmap (5 min)
+
+Open `roadmap.md` and answer these four prompts:
+
+**90-Day Goals**
+- Example: "Hit $10K/month ARR and convert 2 pilots to retainers"
+- Your version: [What do you want to achieve in 90 days?]
+
+**Three Main Objectives (North Stars)**
+- Example: "Close existing pipeline, Fill funnel with leads, Build thought leadership"
+- Your version: [What are your 3 strategic pillars?]
+
+**What You Want to Improve**
+- Example: "Sales follow-up velocity, Content differentiation, Lead qualification"
+- Your version: [What's broken that you want to fix?]
+
+**Two or Three Main Targets (What "Done" Looks Like)**
+- Example: "2 retainers signed ($10K/mo), 50 qualified inbound leads, 2K newsletter subscribers"
+- Your version: [What are your 2-3 measurable outcomes?]
+
+**Why this matters:** This roadmap becomes your decision filter. Every time you're tempted to start something new, Claude will ask: "Does this serve one of your three objectives or targets?" If not, it's a distraction.
+
+---
+
+## Step 4: Customize Strategy Guard (5-7 min)
 
 Open `.claude/rules/strategy-guard.md` and fill in these sections:
 
@@ -79,7 +103,7 @@ Open `.claude/rules/strategy-guard.md` and fill in these sections:
 
 ---
 
-## Step 4: Create Your First Memory (5-10 min)
+## Step 5: Create Your First Memory (5-10 min)
 
 The setup skill walked you through this, but here's the structure:
 
@@ -102,7 +126,7 @@ Content goes here.
 
 **Then update `memory/MEMORY.md`** with a pointer:
 ```
-- [My First Memory](user_role.md) — One-line description
+- [My First Memory](user_role.md) - One-line description
 ```
 
 **Example memory:**

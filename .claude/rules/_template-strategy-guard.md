@@ -12,8 +12,14 @@ This rule exists to prevent you from abandoning focus and getting stuck in a cyc
 
 ## Decision Framework (Run New Ideas Through This)
 
-1. **Does it directly serve your current priority?** If no → reject
-2. **Can it generate value within your timeline?** If no → park it
+**First check:** Does this serve one of your three objectives from `roadmap.md`?
+- Objectives: [YOUR OBJECTIVE 1], [YOUR OBJECTIVE 2], [YOUR OBJECTIVE 3]
+- If no → it's a distraction
+
+**Then ask:**
+
+1. **Can it move the needle on one of your targets?** ([TARGET 1], [TARGET 2], [TARGET 3])
+2. **Can you deliver value within your timeline?** If no → park it
 3. **Can you sustain it solo, or do you need someone?** If you need someone → reject or delegate
 4. **Is this complexity addiction talking?** If yes → simplify
 5. **Would I be starting something new instead of finishing something started?** If yes → finish first
